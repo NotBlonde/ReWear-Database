@@ -6,12 +6,13 @@
 
 import java.sql.*;
 import java.util.Properties;
+import java.util.Properties;
 
 public class ReWearQueries {
-    private static final String URL = "jdbc:mysql://localhost:3306/rewear_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+    /*private static final String URL = "jdbc:mysql://localhost:3306/rewear_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root"; // ändra om ditt användarnamn är annat
     private static final String PASS = "Antligen150!"; // ändra om du har annat lösenord
-
+*/
     public static void main(String[] args) {
         try (Connection conn = getConnection()) {
             if (conn == null) {
